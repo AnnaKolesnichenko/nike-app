@@ -54,13 +54,14 @@ span {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  //justify-content: space-between;
   height: 65px;
   padding: 0 98px;
   box-sizing: border-box;
 }
 
 .logo a {
+  margin-right: 130px;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -79,15 +80,16 @@ nav {
 .menu-items {
   display: flex;
   flex-direction: row;
-
   gap: 30px;
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-right: 170px;
   //width: 428px;
 
-  li {
+  li a {
     font-size: 16px;
+    color: #343434;
   }
 }
 
@@ -105,7 +107,7 @@ nav {
     background-color: #e8e8e8;
     border: none;
     border-radius: 15px;
-    padding: 9px;
+    //padding: 9px;
   }
 }
 
@@ -114,8 +116,9 @@ nav {
   margin: 0;
   padding: 0;
 }
+
 .icon {
-  display: inline-block;
+  //display: inline-block;
   width: 1em;
   height: 1em;
   stroke-width: 0;
