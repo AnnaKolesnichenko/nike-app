@@ -1,0 +1,24 @@
+.main-container {
+  padding: 0 98px;
+  padding-top: 20px;
+}
+
+.filter-items {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+.light {
+  color: #959595;
+}
+
+.dark {
+  color: #626262;
+}
+
+.item-description {
+  display: flex;
+  gap: 33px;
+}

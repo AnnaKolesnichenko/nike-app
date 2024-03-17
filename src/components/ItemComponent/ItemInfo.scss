@@ -1,0 +1,39 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #343434;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+  }
+
+  p {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    //line-height: 24px;
+    color: #959595;
+  }
+}
