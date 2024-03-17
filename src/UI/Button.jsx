@@ -1,6 +1,6 @@
-import "./InfoButtons.scss";
+import "./Button.scss";
 
-const InfoButtons = ({ text, color, backgroundColor }) => {
+const Button = ({ text, color, backgroundColor }) => {
   return (
     <button style={{ color: color, backgroundColor: backgroundColor }}>
       {text}
@@ -8,4 +8,4 @@ const InfoButtons = ({ text, color, backgroundColor }) => {
   );
 };
 
-export default InfoButtons;
+export default Button;

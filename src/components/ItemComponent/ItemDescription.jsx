@@ -1,7 +1,8 @@
-import InfoButtons from "./InfoButtons";
 import "./ItemDescription.scss";
-import ItemInfo from "./ItemInfo";
 
+import ItemInfo from "./ItemInfo";
+import Button from "../../UI/Button";
+import Icons from "../../UI/Icons";
 import { Circle, Square } from "./Square";
 import { IoIosArrowUp } from "react-icons/io";
 
@@ -32,16 +33,23 @@ const ItemDescription = () => {
         <IoIosArrowUp className="arrow-up" />
       </div>
       <ItemInfo />
-      <InfoButtons
-        text="оформити замовлення"
-        color="white"
-        backgroundColor="#000000"
-      />
-      <InfoButtons
-        text="купити у кредит"
-        color="#000000"
-        backgroundColor="white"
-      />
+      <div className="order-part">
+        <div className="button-container">
+          <Button
+            text="оформити замовлення"
+            color="white"
+            backgroundColor="#000000"
+          />
+          <Button
+            text="купити у кредит"
+            color="#000000"
+            backgroundColor="white"
+          />
+        </div>
+        <div style={{ paddingTop: "17px" }}>
+          <Icons />
+        </div>
+      </div>
     </div>
   );
 };

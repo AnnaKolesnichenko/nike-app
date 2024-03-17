@@ -1,0 +1,18 @@
+.container {
+  padding: 0 98px;
+  padding-top: 78px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plus {
+  width: 80px;
+  height: 80px;
+}

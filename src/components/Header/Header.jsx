@@ -1,7 +1,6 @@
+import Icons from "../../UI/Icons";
 import "./Header.scss";
-import { IoHeartOutline } from "react-icons/io5";
 import { RiSearch2Line } from "react-icons/ri";
-import { CiShoppingBasket } from "react-icons/ci";
 
 const Header = () => {
   return (
@@ -60,14 +59,7 @@ const Header = () => {
         <div className="extra-nav">
           <input type="text" />
           <RiSearch2Line className="search-icon" />
-          <ul className="icons">
-            <li>
-              <IoHeartOutline className="icon" />
-            </li>
-            <li>
-              <CiShoppingBasket className="icon" />
-            </li>
-          </ul>
+          <Icons />
         </div>
       </div>
     </header>
