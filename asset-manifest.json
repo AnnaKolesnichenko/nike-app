@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nike-app/static/css/main.238ea0ab.css",
+    "main.js": "/nike-app/static/js/main.5f22733d.js",
+    "index.html": "/nike-app/index.html",
+    "main.238ea0ab.css.map": "/nike-app/static/css/main.238ea0ab.css.map",
+    "main.5f22733d.js.map": "/nike-app/static/js/main.5f22733d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238ea0ab.css",
+    "static/js/main.5f22733d.js"
+  ]
+}
