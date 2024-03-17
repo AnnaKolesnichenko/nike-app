@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/nike-app/static/css/main.238ea0ab.css",
-    "main.js": "/nike-app/static/js/main.5f22733d.js",
+    "main.css": "/nike-app/static/css/main.305088c5.css",
+    "main.js": "/nike-app/static/js/main.06a042b0.js",
+    "static/media/main.jpg": "/nike-app/static/media/main.40556be4002246773099.jpg",
     "index.html": "/nike-app/index.html",
-    "main.238ea0ab.css.map": "/nike-app/static/css/main.238ea0ab.css.map",
-    "main.5f22733d.js.map": "/nike-app/static/js/main.5f22733d.js.map"
+    "main.305088c5.css.map": "/nike-app/static/css/main.305088c5.css.map",
+    "main.06a042b0.js.map": "/nike-app/static/js/main.06a042b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.238ea0ab.css",
-    "static/js/main.5f22733d.js"
+    "static/css/main.305088c5.css",
+    "static/js/main.06a042b0.js"
   ]
 }
