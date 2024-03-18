@@ -10,11 +10,12 @@
 
   h3 {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
-    text-transform: uppercase;
+    line-height: 26px;
+    //text-transform: uppercase;
   }
 
   h4 {
@@ -22,23 +23,23 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    text-transform: uppercase;
+    //text-transform: uppercase;
   }
 
   h5 {
     margin: 0;
-    margin-top: 15px;
+    margin-top: 10px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     color: #4aaa4e;
   }
 
   .fav-heart {
     position: absolute;
-    top: 7px;
-    right: 7px;
+    top: 10px;
+    right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,10 +47,11 @@
     height: 35px;
     background-color: white;
     border-radius: 100px;
-  }
 
-  svg {
-    width: 26.9px;
-    height: 24px;
+    img {
+      width: 26.9px;
+      height: 24px;
+      margin: 0;
+    }
   }
 }

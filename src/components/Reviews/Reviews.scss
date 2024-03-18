@@ -1,6 +1,45 @@
 .container {
   padding: 0 98px;
   padding-top: 78px;
+
+  .review-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .reviews-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+
+    span {
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      color: #959595;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+
+  span {
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #343434;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
 }
 
 .reviews {

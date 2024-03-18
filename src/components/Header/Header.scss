@@ -48,7 +48,6 @@ span {
   display: flex;
   flex-direction: row;
   align-items: center;
-  //justify-content: space-between;
   height: 65px;
   padding: 0 98px;
   box-sizing: border-box;
@@ -61,6 +60,7 @@ span {
   font-weight: 500;
   text-transform: uppercase;
   line-height: 58px;
+  letter-spacing: -2px;
   color: #343434;
 }
 
@@ -77,12 +77,14 @@ nav {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-right: 185px;
+  margin-right: 180px;
   //width: 428px;
 
   li a {
-    font-size: 16px;
+    font-size: 14px;
     color: #343434;
+    text-transform: uppercase;
+    font-weight: 400;
   }
 }
 

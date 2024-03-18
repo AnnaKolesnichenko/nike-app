@@ -20,11 +20,11 @@ const ItemDescription = () => {
     <div>
       <div className="description">
         <h1 className="title">чоловічий термокостюм atlantic</h1>
-        <h2>термокостюм</h2>
+        <p>термокостюм</p>
         <h3 className="price">3700 грн.</h3>
-        <h2>оберіть розмір</h2>
+        <p>оберіть розмір</p>
         <ul>{squares()}</ul>
-        <h2>оберіть колір</h2>
+        <p>оберіть колір</p>
         <ul style={{ marginBottom: "0px" }}>
           <Circle color="white" border="1px solid black" />
           <Circle color="#959595" />

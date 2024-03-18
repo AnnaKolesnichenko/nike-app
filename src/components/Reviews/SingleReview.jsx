@@ -1,8 +1,6 @@
 import React from "react";
 import image from "../../images/review.jpg";
-import { Star } from "../ItemComponent/Square";
 import { FaRegStar, FaStar } from "react-icons/fa6";
-
 import "./SingleReview.scss";
 
 const SingleReview = () => {

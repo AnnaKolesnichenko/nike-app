@@ -1,4 +1,5 @@
 import "./App.scss";
+import Contacts from "./components/Contacts/Contacts";
 import Favourites from "./components/Favourites/Favourites";
 import Header from "./components/Header/Header";
 import ItemComponent from "./components/ItemComponent/ItemComponent";
@@ -11,6 +12,7 @@ function App() {
       <ItemComponent />
       <Reviews />
       <Favourites />
+      <Contacts />
     </div>
   );
 }

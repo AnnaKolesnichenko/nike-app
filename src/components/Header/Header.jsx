@@ -1,6 +1,7 @@
 import Icons from "../../UI/Icons";
 import "./Header.scss";
-import { RiSearch2Line } from "react-icons/ri";
+import search from "../../images/search.svg";
+// import { RiSearch2Line } from "react-icons/ri";
 
 const Header = () => {
   return (
@@ -58,7 +59,8 @@ const Header = () => {
         </div>
         <div className="extra-nav">
           <input type="text" />
-          <RiSearch2Line className="search-icon" />
+          <img src={search} alt="search" className="search-icon" />
+          {/* <RiSearch2Line className="search-icon" /> */}
           <Icons />
         </div>
       </div>

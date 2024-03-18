@@ -2,6 +2,7 @@ import React from "react";
 import { Liked } from "../../data/favourites";
 import "./Favourites.scss";
 import FavouritesItem from "./FavouritesItem";
+import arrow from "../../images/chevrons-down.svg";
 
 const Favourites = () => {
   return (
@@ -12,6 +13,10 @@ const Favourites = () => {
           <FavouritesItem item={item} />
         ))}
       </ul>
+      <div className="arrow-down">
+        <p>дивитись більше</p>
+        <img src={arrow} alt="arrow" />
+      </div>
     </div>
   );
 };
